@@ -10,8 +10,11 @@ react-native-popup-dialog
 react-native-vector-icons
 
 https://www.npmjs.com/package/react-native-scroll-card
+
 Install using npm:
 1. npm i react-native-scroll-card
+2. import { ScrollCard } from 'react-native-scroll-card';
+3. npx react-native run-android
 
 Installation source:
 1. npm install
@@ -21,7 +24,8 @@ Test (jest):
 1. yarn test
 
 Adding the component:
-data = 
+
+const data = 
 [{
   id: 1,
   category: '',
